@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import HeroImg from "../assets/Hero.png";
+// import HeroImg from "../assets/Hero.png";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
@@ -55,11 +55,11 @@ const Home = () => {
         <div className="w-1/2 flex justify-end">
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-yellow-500 rounded-full blur opacity-30" />
-            <img
+            {/* <img
               src={HeroImg}
               alt="Hero"
               className="relative w-[30rem] rounded-full shadow-2xl animate-float"
-            />
+            /> */}
           </div>
         </div>
       </div>
