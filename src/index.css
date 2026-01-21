@@ -1,0 +1,30 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Princess+Sofia&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Princess+Sofia&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=My+Soul&family=Princess+Sofia&display=swap");
+/* @layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+} */
+
+.princess-sofia-regular {
+  font-family: "Princess Sofia";
+  font-weight: 400;
+  font-style: normal;
+}
+.my-soul-regular {
+  font-family: "My Soul";
+  font-weight: 400;
+  font-style: normal;
+}
+.lavishly-yours-regular {
+  font-family: "Lavishly Yours" !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
