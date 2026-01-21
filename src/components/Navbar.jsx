@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import frame from "../assets/frame.svg"; // signature frame
+import frame from "../assets/Frame.svg"; // signature frame
 // import logo from "../assets/signature-white.png";
 
 const Navbar = () => {
